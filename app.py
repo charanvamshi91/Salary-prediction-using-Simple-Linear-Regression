@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the saved model
-model = pickle.load(open(r"C:\Users\chara\OneDrive\Desktop\FSDS\Salary Prediction using SLR\linear_regreddion_model.pkl", "rb"))
+model = pickle.load(open("linear_regression_model.pkl", "rb"))
 
 # Set the title of the Streamlit app
 st.title("Salary Prediction App")
