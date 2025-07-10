@@ -96,24 +96,6 @@ Then open `http://localhost:8501` in your browser.
 
 ---
 
-## 🌍 Deployment on Render
-
-This app is deployed on [Render](https://render.com), a free cloud hosting platform.
-
-### Deployment Files:
-- `requirements.txt`: Lists Python libraries
-- `render.yaml`: Tells Render how to run the app
-
-### Deployment Steps:
-1. Uploaded project to GitHub  
-2. Connected repo to Render  
-3. Used the following Start Command:
-   ```bash
-   streamlit run app.py --server.port 10000
-   ```
-4. Done! The app auto-builds and runs in the cloud.
-
----
 
 ## 🧾 License
 
